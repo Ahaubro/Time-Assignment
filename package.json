@@ -2,5 +2,8 @@
   "dependencies": {
     "express": "^4.17.2",
     "heroku": "^7.59.2"
-  }
+  },
+  "scripts": {"start": "node app.js"},
+  "engines": {"node": "8.9.3"}
 }
+
