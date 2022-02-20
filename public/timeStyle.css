@@ -1,0 +1,79 @@
+body,html {
+    font-family: Comic Sans MS;
+    margin: 0;
+    padding: 0;
+    background-color: #224252;
+}
+
+
+.container {
+    min-height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#clock {
+    font-family: Comic Sans MS;
+    font-size: 10vw;
+    background-image: linear-gradient(180deg,
+        rgb(99, 243, 253) 0%,
+        rgb(51, 90, 197) 50%,
+        rgb(219, 22, 170) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+
+.controls {
+    margin-top: 16px;
+}
+
+
+.button {
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 4px 8px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+
+.set-alarm {
+    background-color: #498AFB;
+}
+
+
+.clear-alarm {
+    background-color: #FF3860;
+}
+
+
+h1, h2, h3{
+    color: #a538ff;
+    display: inline;
+}
+
+
+h1{
+    font-size: 75px;
+    font-family: Comic Sans MS;
+}
+
+
+#header{
+    color: #FF3860;
+    text-align: center;
+}
+
+
+#alarm{
+    text-align: center;
+}

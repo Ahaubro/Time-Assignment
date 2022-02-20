@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The fourth dimension</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/timeStyle.css">
+</head>
+
+<body>
+
+    <br/>
+
+    <div id="header">
+        <h1>Something with time</h1>
+    </div>
+
+    <br/>
+
+    <section class="container">
+        <div id="clock"></div>
+    </section>
+
+    <br/>
+
+    <div id="alarm">
+        
+        <input onchange="setAlarmTime(this.value)" name="alarmTime" type="datetime-local">
+    
+        <div class="controls">
+            <button onclick="setAlarm()" class="button set-alarm">Set alarm</button>
+            <button onclick="clearAlarm()" class="button clear-alarm">Clear alarm</button>
+        </div>
+
+    </div>
+    
+</body>
+</html>
+
+<script src="/time.js"></script>
