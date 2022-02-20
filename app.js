@@ -10,7 +10,8 @@ app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");
 });
 
+const PORT = process.env.PORT||8888
 
-app.listen(8888, (error) => {
-    console.log("Sever running on 8888");
+app.listen(PORT, (error) => {
+    console.log("Sever running on: " + PORT);
 });
